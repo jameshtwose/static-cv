@@ -1,0 +1,149 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Raleway', sans-serif;
+  background: #f9f9f9;
+  --link_color: #743de0;
+  --header_color: #000;
+  --overview_color: #241444b0;
+  --bullet_line_color: #242424;
+}
+
+/* overview */
+.overview {
+  background: var(--overview_color);
+}
+
+.overview .container h1 {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  color: white;
+}
+
+.overview .container h4 {
+  color: white;
+}
+
+.overview .container {
+  /* background: var(--overview_color); */
+  padding: 2%;
+}
+
+.overview img {
+  border-radius: 50%;
+  width: 350px;
+  border: 2px solid #fff;
+  margin-left: 30%;
+  /* margin-top: 5%; */
+}
+
+.overview li {
+  padding: 2%;
+}
+
+/* .overview .container h1{
+  padding: 2%;
+} */
+
+/* cv */
+.cv {
+/* margin-top: -50px;
+padding-top: 50px;
+padding-bottom: 30px; */
+padding: 3%;
+}
+
+.cv h3 {
+margin-bottom: 50px;
+}
+
+.cv .cv-link {
+color: var(--link_color);
+text-decoration: none;
+}
+
+/* .cv .thesis-link:link {
+color:red;
+text-decoration: none;
+} */
+
+.timeline {
+list-style-type: none;
+position: relative;
+/* padding: 2px; */
+}
+
+.timeline:before {
+content: "";
+background: var(--bullet_line_color);
+display: inline-block;
+position: absolute;
+left: 29px;
+width: 2px;
+height: 100%;
+z-index: 1;
+}
+
+.timeline li {
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+background: #fff;
+}
+
+.timeline li p {
+  padding: 1%;
+}
+
+.timeline li h4 {
+background-color: var(--header_color);
+padding: 5px 0 5px 20px;
+color: #fff;
+font-size: 15px;
+}
+
+.timeline div {
+padding: 5px 0 5px 20px;
+padding-top: 1%;
+color: #fff;
+font-size: 15px;
+height: 70px;
+}
+
+.timeline div img{
+/* margin-top: 4px;
+margin-left: 4px; */
+margin:10px;
+padding-top: 1px;
+padding-left: -5px;
+}
+
+.timeline li h4 span {
+font-weight: bold;
+color: #ccc;
+}
+
+.timeline li:before {
+content: "";
+background: #fff;
+display: inline-block;
+position: absolute;
+border-radius: 50%;
+border: 3px solid var(--header_color);
+left: 20px;
+width: 20px;
+height: 20px;
+z-index: 1;
+}
+
+/* extras */
+.extras {
+  background: var(--overview_color);
+  padding-bottom: 2.5%;
+}
+
+.extras .container h2 {
+  padding-top: 3%;
+  padding-bottom: 1%;
+  color: white;
+}
