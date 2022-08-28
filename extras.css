@@ -1,0 +1,13 @@
+body{
+    margin:0;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 150px;
+    font-family: 'Raleway', sans-serif;
+    background: #f9f9f9;
+  }
+
+h2, h4 {
+    color: #241444b0;
+    padding: 5px;
+  }
