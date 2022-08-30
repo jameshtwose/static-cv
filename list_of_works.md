@@ -49,6 +49,17 @@
 ## Personal Projects
 - __2022__
 
+- A website showing latest data science work and portfolio (HTML, CSS, Javascript)
+    - [https://github.com/jameshtwose/services.jms.rocks](https://github.com/jameshtwose/services.jms.rocks)
+    - [https://services.jms.rocks](https://services.jms.rocks)
+
+- A general Data Science repository (Python, R, Jupyter, HTML)
+    - [https://github.com/jameshtwose/Data-Science](https://github.com/jameshtwose/Data-Science)
+    - [https://jameshtwose.github.io/Data-Science/](https://jameshtwose.github.io/Data-Science/)
+
+- A fully functioning chatbot (Pytorch, Flask, Microsoft Azure)
+    - [https://github.com/jameshtwose/dumb_friend](https://github.com/jameshtwose/dumb_friend)
+
 - Stand alone health app (Python - FastAPI, deta, nosql)
     - [https://github.com/jameshtwose/health_deta](https://github.com/jameshtwose/health_deta)
     - [https://jameshtwose.github.io/health_deta/](https://jameshtwose.github.io/health_deta/)
