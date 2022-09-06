@@ -62,6 +62,11 @@ color: var(--link_color);
 text-decoration: none;
 }
 
+.education .cv-link {
+  color: var(--link_color);
+  text-decoration: none;
+  }
+
 .overview-link {
   color: var(--link_color);
   text-decoration: none;
@@ -141,21 +146,33 @@ height: 20px;
 z-index: 1;
 }
 
+/* education */
+.education {
+  background: var(--overview_color);
+  padding-bottom: 2.5%;
+}
+
+.education .container h2 {
+  padding-top: 3%;
+  padding-bottom: 1%;
+  color: white;
+}
+
 /* extras */
 .extras {
-  background: var(--overview_color);
+  /* background: white; */
   padding-bottom: 2.5%;
 }
 
 .extras .container h2 {
   padding-top: 3%;
   padding-bottom: 1%;
-  color: white;
+  /* color: white; */
 }
 
 /* footer */
 .footer {
-  background: var(--background);
+  background: var(--overview_color);
   padding-bottom: 2.5%;
   text-align: center;
 }
@@ -163,5 +180,5 @@ z-index: 1;
 .footer .container a {
   padding-top: 3%;
   padding-bottom: 1%;
-  color: var(--link_color);
+  color: white;
 }

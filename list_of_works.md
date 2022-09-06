@@ -49,6 +49,18 @@
 ## Personal Projects
 - __2022__
 
+- Landing page of analyses for the Citizen Shield project (Python, Jupyter, HTML, CSS)
+    - [https://github.com/Citizen-Shield/multi-method-protective-behaviour](https://github.com/Citizen-Shield/multi-method-protective-behaviour)
+    - [https://citizen-shield.github.io/multi-method-protective-behaviour/](https://citizen-shield.github.io/multi-method-protective-behaviour/)
+
+- A fully functioning frontend for a food tracking application (React, Javascript, HTML, CSS)
+    - [https://github.com/jameshtwose/jmstracker-frontend](https://github.com/jameshtwose/jmstracker-frontend)
+    - [https://trckr.jms.rocks](https://trckr.jms.rocks)
+
+- A fully functioning API backend for a food tracking application (Python - FastAPI, deta, Postgresql)
+    - [https://github.com/jameshtwose/jmstracker-backend](https://github.com/jameshtwose/jmstracker-backend)
+    - [https://4qcow4.deta.dev/docs](https://4qcow4.deta.dev/docs)
+
 - A website showing latest data science work and portfolio (HTML, CSS, Javascript)
     - [https://github.com/jameshtwose/services.jms.rocks](https://github.com/jameshtwose/services.jms.rocks)
     - [https://services.jms.rocks](https://services.jms.rocks)
