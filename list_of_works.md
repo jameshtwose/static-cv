@@ -33,18 +33,32 @@
 
 
 ## Projects/ Analyses at Neurocast
-- 2022-Innovation
-- 2022-LIMS
-- 2021-Innovation
-- 2021-AUmc-longitudinal-analysis
-- 2020-NLTSA
-- 2020-AUmc-responsiveness-analysis
-- 2019-validation-smart-panel
-- 2019-VUMC-black-box
-- 2019-AUmc-cross-sectional-analysis
-- 2018-pop-up-questions-validation
-- 2018-Johnson-and-Johnson-Trial
-- 2018-wiki-building
+#### Innovation Options
+- Using Linear Mixed Models to predict outcomes → look for changes using sum of dynamic complexity and cumulative complexity peaks ([_Twose et al, 2020_](https://jameshtwose.github.io/EWS-supplemental-material/))
+- Recurrence Network Transitivity
+    - Using multiple Recurrence Networks over a sliding window → from each network calculate the transitivity coefficient ([_Marwan & Kurths, 2015_](https://arxiv.org/pdf/1507.03778.pdf)) → compare the peaks in this coefficient with changes in outcome measure 
+- Network approaches
+    - ML-VAR and uSEM networks ([_Boorsboom et al., 2021_](https://eiko-fried.com/wp-content/uploads/Primer_s43586-021-00055-w_1629381676_1.pdf), [_Yang et al., 2018_](https://www.hindawi.com/journals/complexity/2018/5094179/))
+- Optimal control theory
+    - Coupled nonlinear difference equations to model outcomes (e.g. [_Schöller et al., 2018_](https://link.springer.com/article/10.1007/s11571-018-9488-y))
+- Subtype and Stage Inference (SuStaIn)
+    - Using SuStaIn to identify MS subtypes in keystroke data ([_Young et al., 2018_](https://www.nature.com/articles/s41467-018-05892-0), [_Aksman et al., 2021_](https://www.sciencedirect.com/science/article/pii/S2352711021001096))
+
+#### Applications/ packages
+- Created a sample size calculation web application called __*NeuroShiny*__ using __R Shiny__ and deployed it using __github actions__, __docker__ and __AWS ECR, ECS, fargate__
+- Created a python package to help aid all internal analyses called __*neuropy*__. This included unit tests (pytest), Continuous Integration and Continuous Delivery (CICD) via github actions and was fully documented (sphinx) with complimentary scripts to show the intended use of all of the functions.
+- Created a private pypi server to host internal python packages
+
+#### Projects
+- Amsterdam University medical center
+    - longitudinal analysis using Linear Mixed Models to predict MS related outcome with keystroke composite scores ([_Lam et al., 2022_](https://www.jmir.org/author/submission/37614))
+    - responsiveness analysis using receiver operating characteristic (ROC) analysis ([_Lam et al., 2022_](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ene.15162))
+    - cross sectional analysis using correlations, t-tests, intra class correlations and bland-altman plots ([_Lam et al., 2021_](https://journals.sagepub.com/doi/pdf/10.1177/1352458520968797))
+    - nonlinear time series analysis using dynamic complexity ([_Twose et al., 2020_](https://aip.scitation.org/doi/full/10.1063/5.0022031))
+    - hierarchical machine learning analyses to predict MS outcomes (e.g. [_Hajjem, Bellavance and Larocque, 2014_](https://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599))
+
+- Fatigue questionnaire validation using confirmatory factor analysis
+- Writing a github wiki to explain data science methodology at Neurocast
 
 ## Personal Projects
 - __2022__

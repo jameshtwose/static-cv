@@ -31,10 +31,10 @@ body{
 
 .overview img {
   border-radius: 50%;
-  width: 350px;
+  width: 400px;
   border: 2px solid #fff;
-  margin-left: 30%;
-  /* margin-top: 5%; */
+  margin-left: 150px;
+  margin-top: 60px;
 }
 
 .overview li {

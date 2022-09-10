@@ -5,9 +5,15 @@ body{
     padding-right: 150px;
     font-family: 'Raleway', sans-serif;
     background: #f9f9f9;
+    --link_color: #9684b8dd;
   }
 
 h2, h4 {
     color: #241444b0;
     padding: 5px;
   }
+
+a {
+  color: var(--link_color);
+  text-decoration: none;
+}
